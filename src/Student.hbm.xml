@@ -1,0 +1,20 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.gqt.p1.Student" table="Student">
+		<id name="roll" column="roll"></id>
+		<property name="name">
+			<column name="name" />
+		</property>
+		<property name="fname">
+			<column name="fname" />
+		</property>
+		<property name="mname">
+			<column name="mname" />
+		</property>
+		<property name="school">
+			<column name="school" />
+		</property>
+	</class>
+</hibernate-mapping>
